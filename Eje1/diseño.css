@@ -1,0 +1,86 @@
+header{ /*diseño para el encabezado de la pagina*/
+    background-color: aqua;
+    color: black;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul{ /*para los enlaces de navegacion*/
+    text-align: center;
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li{
+    display: inline; /*pone los enlaces anteriores en linea*/
+    margin: 0 15px; /*para separar los enlaces hacia derecha e izquierda*/
+}
+
+nav ul li a {
+    color: chocolate;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav ul li a:hover{ /*le da fondo a la palabra que se usa como boton*/
+    background-color: red;
+    color: white;
+}
+
+aside {
+    width: 20%;
+    background-color: cornflowerblue;
+    padding: 10px;
+    float: right;
+}
+
+aside ul{
+    list-style: none;
+    padding: 0;
+}
+
+aside ul li{
+    margin: 10px 0;
+}
+
+aside ul li a{
+    text-decoration: none;
+    color: darkslategray;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.logo{ /*modifica solo la clase con el nombre*/
+    display: flex;
+    position: absolute;
+    padding-left: 20px;
+}
+
+section{ /*diseña solo lo que se encuentra en seccion*/
+    margin-right: 22%;
+    padding: 10px;
+    background-color: darkgoldenrod;
+}
+
+.concepto{
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: darkolivegreen;
+    text-align: center;
+}
+
+.importancia{
+    margin: 15px 0;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: greenyellow;
+}
+
+footer{
+    background-color: blanchedalmond;
+    color: darkslategrey;
+    text-align: center;
+    width: 100%;
+}
